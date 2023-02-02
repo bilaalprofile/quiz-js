@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: Verdansa, Geneva, Tahoma, sans-serif;
+}
+.quizing{
+    background-color: rgb(21, 127, 242);
+    padding: 30px;
+}
+.heading{
+    margin: 10px auto 40px auto;
+}
+
+.heading .title{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 500 ;
+    text-align: center;
+}
+
+.heading .sub-title{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+.hide{
+    min-width: 350px;
+    max-width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 8px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+.hide p:first-child{
+    padding: 10px 20px;
+}
+.result{
+    display: none;
+}
+.reload button {
+    padding: 10px 20px;
+    background-color: #04aa6d;
+    color: #ffffff;
+    border-radius: 0px 0px 5px 5px;
+    width: 100%;
+    border: 0px;
+
+}
+.reload button:hover{
+    background-color: #065c3c;
+    cursor: pointer;
+}
+
+.ques{
+    padding: 10px 20px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 8px;
+
+}
+
+.ques > *{
+    font-size: 17px;
+
+}
+.correct{
+    background-color: #d2edcd;
+}
+.wrong{
+    background-color: rgb(232, 195, 195);
+}
+.submit{
+margin: 30px 0px;
+text-align: center;
+}
+.submit input{
+    background-color: #04aa6d;
+    padding: 5px 25px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 8px;
+    
+}
+.submit input:hover{
+    background-color: #065c3c;
+    cursor: pointer;
+}
